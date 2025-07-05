@@ -1,0 +1,38 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <body>
+    <div class="container">
+        <h1>Cabañas Tralcapulli</h1>
+    <div class="campo"></div>
+
+        
+    <div class="container2">
+        <h2>Bienvenido a Cabañas Tralcapulli</h2>
+        <p>Disfruta de la naturaleza y la tranquilidad en nuestras cabañas.</p>
+        <p>Contamos con todas las comodidades para que tu estadía sea inolvidable.</p>
+        <p>Reserva ahora y vive una experiencia única en el corazón de la naturaleza.</p>
+        
+
+    </div>    
+    
+<main>
+{% block content %}
+
+
+
+
+
+{% endblock %}
+
+{% include 'footer.html' %}
+
+
+</main>
+</body>
+</html>

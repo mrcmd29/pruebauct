@@ -1,0 +1,29 @@
+
+body { background-color: orange;}
+.container {
+  background-color: rgb(83, 125, 150);
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.container2 {
+  background-color: rgb(83, 150, 110);
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.campo {
+  
+  background-image: url("../img/portada.jpg");
+  max-width: 2000px;
+  margin: 0 auto;
+  padding: 100px;
+}
+
+footer{
+  background-color: rgb(99, 83, 150);
+  color: rgb(110, 12, 12);
+  
+  padding: 1%;
+}
